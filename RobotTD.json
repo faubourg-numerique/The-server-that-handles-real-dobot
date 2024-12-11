@@ -1,0 +1,69 @@
+{
+  "@context": "https://www.w3.org/2019/wot/td/v1",
+  "title": "robot",
+  "securityDefinitions": {
+      "nosec_sc": {
+          "scheme": "nosec"
+      }
+  },
+  "security": "nosec_sc",
+  "properties": {
+      "x": {
+          "title": "x",
+          "type": "number",
+          "observable": true
+      },
+      "y": {
+          "title": "y",
+          "type": "number",
+          "observable": true
+      },
+      "z": {
+          "title": "z",
+          "type": "number",
+          "observable": true
+      },
+      "r": {
+          "title": "r",
+          "type": "number",
+          "observable": true
+      }
+  },
+  "actions": {
+      "move": {
+          "title": "Move",
+          "input": {
+              "type": "object",
+              "properties": {
+                    "x": {
+                        "title": "x",
+                        "type": "number",
+                        "observable": true
+                    },
+                    "y": {
+                        "title": "y",
+                        "type": "number",
+                        "observable": true
+                    },
+                    "z": {
+                        "title": "z",
+                        "type": "number",
+                        "observable": true
+                    },
+                    "r": {
+                        "title": "r",
+                        "type": "number",
+                        "observable": true
+                    }
+                },
+              "required": [
+                  "x",
+                  "y",
+                  "z",
+                  "r"
+              ]
+          }
+      }
+  }
+}
+
