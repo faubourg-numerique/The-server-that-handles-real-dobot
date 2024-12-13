@@ -1,6 +1,9 @@
 # The-server-that-handles-real-dobot
 ### Web of Things Server for Controlling Dobot Magician
 
+![Dobot Setup Diagram](architecture.png)
+
+
 This Web of Things (WoT) server controls the real Dobot Magician by sending action commands through ROSBridge. Follow the instructions below to set it up and use it effectively.
 
 #### 1. Install Required Software
