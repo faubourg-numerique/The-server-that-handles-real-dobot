@@ -115,6 +115,6 @@ Import the following files for the WoT server:
    node client.js
    ```
 
-Your WoT server is now ready to control the Dobot Magician!
+Your WoT server is now ready to control the Dobot, change the value of x, y, z and r to see the mouvement
 
 
