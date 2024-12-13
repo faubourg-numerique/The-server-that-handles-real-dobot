@@ -51,9 +51,9 @@ rqt --force-discover
 ```
 This ensures the plugins are visible in the RQT GUI. For more details, refer to the [RQT plugins issue description](https://docs.ros.org/).
 
-#### 5. Add Your Own Package (Optional)
+#### 5. Add Your Own Package 
 
-If you want to add your own package to use the `action_sender.py` script, follow this tutorial: [Creating Your First ROS 2 Package](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Creating-Your-First-ROS2-Package.html).
+add your own package to use the `action_sender.py` script, follow this tutorial: [Creating Your First ROS 2 Package](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Creating-Your-First-ROS2-Package.html).
 
 #### 6. Import WoT Server Scripts
 
